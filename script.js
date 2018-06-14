@@ -26,7 +26,7 @@ function init(){
 }
 
 function busca(event){
-	if(resposta.length!=nErros){
+	if(resposta.length!=nAcertos){
 		if(nErros<=6){
 			letra=document.getElementById("letra").value;
 			for(var i=0;i<nLetra;i++){
