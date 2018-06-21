@@ -37,7 +37,6 @@ function busca(event){
 			}
 			if(acerto!=1){
 				nErros=nErros+1;
-				alert(nErros);
 				document.getElementById("imag").src=nErros+".png";
 			}else{
 				document.getElementById('resp').innerHTML=resposta;
